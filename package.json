@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/akkch/lesson8#readme",
   "devDependencies": {
-    "jest": "^26.0.0"
+    "jest": "^29.7.0"
   }
 }
