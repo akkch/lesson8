@@ -1,13 +1,15 @@
     const appOperations = require('../src/appOperations');
 
-    test("multiplication property of zero 0 * 5 = 0", () => {
-        expect(appOperations(0, 5)).toBe(0);
+    test("0 * 5 = 0", () => {
+        expect(appOperations.multiply(0, 5)).toBe(0);
     });
     
-    test("multiplication property of zero 5 * 0 = 0", () => {
-        expect(appOperations(5, 0)).toBe(0);
+    test("5 + 5 = 10", () => {
+        expect(appOperations.add(5, 5)).toBe(10);
     });
     
-    test("multiplication property of zero 0 * 0 = 0", () => {
-        expect(appOperations(0, 0)).toBe(0);
+    test("6 / 3 = 2", () => {
+        expect(appOperations.divide(6, 3)).toBe(2);
     });
+    
+
