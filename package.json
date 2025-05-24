@@ -14,8 +14,7 @@
   },
   "scripts": 
   {
-    "test": "jest --coverage",
-    "prepublishOnly": "npm version patch"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
