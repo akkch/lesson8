@@ -1,24 +1,32 @@
 {
-  "name": "lesson8",
-  "version": "1.1.0",
+  "name": "@akkch/lesson8",
+  "version": "1.1.1",
   "description": "demo application for the GitHub Actions Workshop",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage"
-  },
-  "repository": {
+  "main": "/src/appOperations.js",
+  "files":
+  [
+      "/src"
+  ],
+  "repository": 
+  {
     "type": "git",
-    "url": "git+https://github.com/akkch/lesson8.git"
+    "url":"https://github.com/akkch/lesson8.git"
+  },
+  "scripts": 
+  {
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
+  "bugs": 
+  {
     "url": "https://github.com/akkch/lesson8/issues"
   },
   "homepage": "https://github.com/akkch/lesson8#readme",
-  "devDependencies": {
+  "devDependencies": 
+  {
     "jest": "^29.7.0"
   }
 }
